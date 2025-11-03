@@ -17,6 +17,12 @@ header {
     background: #d92b2b;
     color: black; /*PARA TEXTO*/
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    h1{
+        width: 85%;
+        text-align: center;
+    }
 }
 
 nav {
@@ -29,6 +35,8 @@ nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    /* display: flex;
+    justify-content: space-between; */
 }
 
 nav ul li {
@@ -131,11 +139,6 @@ input#user{
 
 
 /*MENÚ HAMBURGUESA*/
-.sin-margind{
-    border-radius: 10px;
-    float: right;   
-}
-
         #panelhamburguesa {
             height: 100vh;
             width: 400px;
