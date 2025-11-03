@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./Contacto.css">
+    <link rel="shortcut icon" href="cora.png" type="image/x-icon">
+</head>
+<body>
+        <div id="panelhamburguesa">
+        <a href="#" class="burgir color texto">Inicio</a>
+        <a href="#" class="burgir color"> Sobre la Película</a>
+        <a href="#" class="burgircolortexto">Reparto</a>
+        <a href="#" class="burgir texto">Producción y Estudio de Grabación</a>
+        <a href="#" class="burgir texto">Curiosidades y Premios</a>
+        <a href="#" class="burgir texto">Contacto</a>
+    </div>
+    <div id="tapado"></div>
+    <header>
+        <h1>Bienvenido al mundo Paddington</h1>
+           <a href="#panelhamburguesa" class="sin-margind"></a>
+        <nav class="sin-margind">
+            <a href="#panelhamburguesa" id="abrir">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px"
+                    fill="#e3e3e3">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg>
+            </a>
+            <a href="#" id="cerrar"> <!-- Cierra el menú -->
+                <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px"
+                    fill="#e3e3e3">
+                    <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                </svg>
+            </a>
+        </nav>
+    </header>
+ 
+    <nav>
+        <ul>
+            <li><a href="./Index.html" style="color: black; text-decoration: none;">Inicio</a></li>
+            <li><a href="./Sobre la Película.html" style="color: black; text-decoration: none;">Sobre la Película</a></li>
+            <li><a href="./Reparto.html" style="color: black; text-decoration: none;">Reparto</a></li>
+            <li><a href="./Producción y Estudio de Grabación.html" style="color: black; text-decoration: none;">Producción y Estudio de Grabación</a></li>
+            <li><a href="./Curiosidades y Premios.html" style="color: black; text-decoration: none;">Curiosidades y Premios</a></li>        
+            <li><a href="./Contacto.html" style="color: black; text-decoration: none;">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <main class="sin-margin">
+
+        <aside>
+            <h4 class="info-ad">Formulario de Contacto</h4>
+            <p>Gracias por visitar nuestro sitio dedicado al universo de Paddington. Si tenés alguna consulta, comentario, sugerencia o querés ponerte en contacto con nosotros por cualquier motivo, completá el formulario y te responderemos a la brevedad.
+
+Valoramos mucho cada mensaje, especialmente de quienes disfrutan de la película y del encantador espíritu de este personaje. 
+
+<br>
+
+Tu opinión nos ayuda a mejorar y a seguir compartiendo contenido de calidad.
+
+<br>
+
+¡Gracias por tu interés!</p>
+
+<br>
+
+        <form action="./confirmacion.html">
+            
+<br>
+
+            <fieldset>
+                <legend>Ingrese sus datos!</legend>
+                
+                <br>
+
+            <label for="user">Ingrese su nombre:</label>
+                <datalist id="paginas">
+                    <option value="https://davinci.edu.ar/">DV</option>
+                    <option value="https://bentogrids.com/">Bento</option>
+                </datalist>
+            <input autofocus list="paginas" type="url" placeholder="Web" name="" id="">
+            <input id="user" name="usuario" placeholder="Ingrese su nombre" type="text" required>
+            <input type="email" placeholder="Ingrese su correo" name="mail" required id="">
+            <input type="password" required minlength="8" maxlength="20" placeholder="Contraseña" name="contra" >
+        </fieldset>
+
+        <br>    
+        <br>
+        <br>
+
+            <button type="submit">Enviar</button>
+            <input type="color" name="" id="">
+            <input type="date" name="" id="">
+            <input type="time" name="" id="">
+            <label>
+                Ingrese un numero (5 en 5)
+                <input type="number" step="5" min="0" required name="" id="">
+            </label>
+            
+            <input type="range" step="20" name="" id="">
+
+            <select name="tema" required id="">
+                <option value="" selected disabled >Seleccione el tema de interés</option>
+                <option value="ddl">“Reparto”</option>
+                <option value="">“Curiosidades”</option>
+                <option value="">“Producción”</option>
+            </select>
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <fieldset>
+                <legend>¿Qué contenido te interesa más sobre Paddington?</legend>
+                <label> Curiosidades de la película
+                    <input type="radio" name="A" id="">
+                </label>
+                <label> Producción y detrás de escena
+                    <input type="radio" name="B" id="">
+                </label>
+                <label> Reparto y entrevistas
+                    <input type="radio" name="C" id="">
+                </label>
+            </fieldset>
+
+            <br>
+            <br>
+
+            <fieldset>
+                <legend>¿Con qué frecuencia querés que te contactemos?</legend>
+                <label>
+                    <input type="checkbox" name="opcionA" id="">Solo cuando haya novedades importantes
+                </label>
+                <label>
+                    <input type="checkbox" name="opcionB" id="">Una vez al mes
+                </label>
+                <label>
+                    <input type="checkbox" name="opcionC" id="">Nunca (solo responden a mi consulta)
+                </label>
+            </fieldset>
+
+            <br>
+            <br>
+
+            <textarea name="mensaje" id=""></textarea>
+            
+            <br>
+
+            <input type="reset" id="btnReset">
+            
+            <br>
+            <br>
+            <br>
+
+        </form>
+
+        <br>
+
+            <a href="https://www.instagram.com/paddingtonbear/?hl=es"><img src="https://cdn-icons-png.flaticon.com/128/2626/2626270.png" class="icono-insta1"></a>
+            <a href="https://www.facebook.com/PaddingtonBear/?locale=es_LA"><img src="https://cdn-icons-png.flaticon.com/128/2626/2626269.png" class="icono-face1"></a>
+            <a href="https://x.com/paddingtonbear"><img src="https://cdn-icons-png.flaticon.com/128/2626/2626271.png" class="icono-x1"></a>
+
+           
+        </aside>
+    </main>
+
+    <footer>
+        <a href="https://www.instagram.com/paddingtonbear/?hl=es"><img src="https://cdn-icons-png.flaticon.com/128/4494/4494468.png" class="icono-insta"></a>
+        <a href="https://www.facebook.com/PaddingtonBear/?locale=es_LA"><img src="https://cdn-icons-png.flaticon.com/128/4494/4494464.png" class="icono-face"></a>
+        <a href="https://x.com/paddingtonbear"><img src="https://cdn-icons-png.flaticon.com/128/4494/4494465.png" class="icono-x"></a>
+        <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

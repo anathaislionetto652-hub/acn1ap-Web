@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header, nav, main, footer {
+    padding: 1em;
+}
+
+header {
+    background: #d92b2b;
+    color: black; /*PARA TEXTO*/
+    text-align: center;
+}
+
+nav {
+    background: #fdeee6;
+    color: black;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    flex: 1; 
+    display: flex;
+    margin: 10px;   
+}
+
+section {
+    flex: 3; 
+    margin: 10px;
+    text-align: justify;
+}
+
+.articulo-principal {
+    margin: 0;
+}
+
+.info-ad {
+    margin: 0;
+    padding: 10px;
+}
+
+.sin-margindos {
+    margin: 0;
+}
+
+.sin-margintres {
+    margin: 0;
+}
+
+.imagen-centrada {
+    padding: 10px;
+    text-align: center;
+}
+
+.imagen-izquierda {
+    padding: 10px;
+    text-align: center;
+}
+
+.imagen-centro {
+    padding: 10px;
+    text-align: center;
+}
+
+.sin-margin {
+    margin: 0;
+}
+
+aside {
+    flex: 1;
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.icono-insta {
+    margin-top: 10px;
+    padding-inline: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.icono-face {
+    margin-top: 10px;
+    padding-inline: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.icono-x {
+    margin-top: 10px;
+    padding-inline: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    background: #d92b2b;
+    color: black; /*PARA EL TEXTO*/
+    text-align: center;
+    padding: 10px;
+}
