@@ -132,4 +132,36 @@ nav ul li a:hover::after {
   transform: scaleX(1);
 }
 
+/* Celular */
+@media (max-width: 750px) {
+    .imagen-centrada img {
+        width: 70%;
+        height: auto;
+        
+    }
 
+    .sin-margin {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 500px) {
+    .imagen-centrada img {
+        width: 85%;
+    }
+}
+
+/* Estilos para tabletas */
+@media (min-width: 751px) and (max-width: 1024px) {
+    .imagen-centrada img {
+        width: 60%;
+    }
+}
+
+/* Estilos para PC */
+@media (min-width: 1025px) {
+    .imagen-centrada img {
+        width: 40%;
+    }
+}
